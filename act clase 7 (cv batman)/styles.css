@@ -1,0 +1,50 @@
+#banner {
+    background-color: #E5E5E5; 
+    height: 188,19px;
+
+}
+#logo {
+    display:block;
+    margin:auto;
+}
+h1 {
+    background-color: #C4C4C4;
+    font-family: 'Times New Roman', Times, serif;
+    color: #005677;
+    font-weight: 700;
+    text-align: center;
+    font-size: 35px
+}
+#espacio-en-blanco {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 70px; 
+}
+h2 {
+    background-color: #C4C4C4;
+    color: #005677; 
+}
+
+span {
+    font-weight: bold
+}
+
+#curisva {
+    font-style: italic;
+}
+#lista2 {
+    list-style: none;
+    padding-left: 1%;
+}
+#lista3 {
+    list-style: none;
+    padding-left: 1%;
+}
+#sin-espacio {
+    margin-top: 0%;
+}
+footer {
+    background-color: #005677;
+    color: #ffffff;
+    text-align: center;
+}
