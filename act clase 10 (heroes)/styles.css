@@ -1,0 +1,92 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+h3 {
+    background-color: #1CD1B0;
+    height: 38px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-top:0%;
+    padding-top: 1%;
+    padding-left:0.5%;
+}
+.heroes {
+    background-color:#00669F;
+    width: 100%;
+    height: 101px;
+    margin-top: 0%;
+    font-family:'Roboto', sans-serif;
+    padding-top: 1.5%;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 1%;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.tarjeta {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.heroe1 {
+    box-sizing: border-box;
+    position:relative;
+    height: 529px;
+    width: 300px;
+    background-image: url("fondobatman.png");
+}
+
+.texto {
+    box-sizing: border-box;
+    position: absolute;
+    top: 192.5px;
+    height: 338px;
+    width: 300px;
+    background-color: #F3F3F3;
+    z-index: 100;
+}
+.corazon {
+    position: relative;
+    z-index: 105;
+    top: 16px;
+    left: 22px;
+}
+.fotito {
+    position: absolute;
+    left: 85px;
+    top: 125px;
+    border-radius: 50%;
+    z-index: 200;
+}
+.titulo {
+    position: relative;
+    top: 50px;
+    left: 90px;
+    font-family:'Roboto', sans-serif;
+}
+.parrafo {
+    position:relative;
+    box-sizing: content-box;
+    top: 40px;
+    left: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    padding-right:10px;
+}
+
+buttom {
+    background-color: #00669F;
+    box-sizing: border-box;
+    width: 128,78px;
+    height: 48,52px;
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 70px;
+    z-index: 300;
+    padding: 20px 40px;
+    font-family: 'Roboto', sans-serif;
+}
