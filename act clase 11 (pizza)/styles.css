@@ -1,0 +1,83 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*container del header*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    background-color:#222222;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    box-shadow:#222222 10px 0px 10px 10px;
+
+    
+}
+
+/*container de la lista*/
+.lista{
+    display:flex; 
+    flex-direction: row; 
+    list-style:none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*estilo de cada elemento*/
+.elemento {
+    list-style: none;
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    display: block;
+    padding: 10px 15px 10px;
+}
+
+/*container sección principal*/
+.containerprincipal{
+    background-color: #E5E5E5 ;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+/*container podio de pizza*/
+.containerpodio {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+/*container mitad de pantalla*/ 
+.containerimagen {
+    background-image: url("delivery.jpg");
+    margin: 30px 20px 10px;
+    height: 350px;
+    width: 800px;
+    background-repeat: no-repeat;
+}
+/*container palabras*/ 
+.containertexto {
+    display: flex;
+    list-style: none;
+    align-content: center;
+}
+/*estilo del texto 1*/
+
+#texto1 {
+    color: #FC200C;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* estilo del texto 2*/
+#texto2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*estilo de las palabras de diferentes colores*/
+.palabra {
+    padding: 10px 5px 10px;
+    border-left: 10px;
+}
